@@ -1,0 +1,70 @@
+git update-git-for-windows
+
+git checkout master ---------> move to master branch
+git status ------------------> see current branch status
+git pull origin master ------> synce local master branch with remote master
+git checkout almamun --------> move to local almamun branch
+git merge master ------------> marge local almamun branch with local master branch
+
+
+
+git checkout -b my-branch-name ----------> create new branch with name my-branch-name
+git checkout my-branch-name -------------> move to local branch name: my-branch-name
+
+$ git checkout -b branchB ---------------> create new branch with name: branchB
+$ git push origin branchB:branchB -------> push local branch: branchB to remote branch: branchB ( if not exist then create )
+$ git push origin master ----------------> push local master branch to remote master branch
+
+
+
+$ git init
+$ git add README.md
+
+$ git add . ------------------------> root folder
+$ git add -A -----------------------> add all files
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/mamun7025/spring-security-full-with-thymeleaf-gp.git
+$ git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+====================================================================================================================================
+…or create a new repository on the command line
+echo "# chkTestRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mamun7025/chkTestRepo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/mamun7025/chkTestRepo.git
+git branch -M main
+git push -u origin main
+
+
+
+=========================================================================================
+git remote rm origin
+git remote add origin git@github.com:username/myapp.git
+
+
+git remote -v ---------> You can see what remote repositories you are configured to connect to via
+
+==========================================================================================
+Add All Files using Git Add
+The easiest way to add all files to your Git repository is to use the “git add” command followed by the “-A” option for “all”.
+
+$ git add -A                       
+
+$ git add .                        (at the root of your project folder)
