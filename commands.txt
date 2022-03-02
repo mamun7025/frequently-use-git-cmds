@@ -68,3 +68,10 @@ The easiest way to add all files to your Git repository is to use the “git add
 $ git add -A                       
 
 $ git add .                        (at the root of your project folder)
+
+
+
+===========================================================================================
+git config --global user.name "mamun7025"
+git config --global user.email "mamun7025@gmail.com"
+
