@@ -22,6 +22,7 @@ $ git add README.md
 
 $ git add . ------------------------> root folder
 $ git add -A -----------------------> add all files
+$ git add file-1 file-2 file-3
 $ git commit -m "first commit"
 $ git remote add origin https://github.com/mamun7025/spring-security-full-with-thymeleaf-gp.git
 $ git push origin master
