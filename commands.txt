@@ -76,3 +76,16 @@ $ git add .                        (at the root of your project folder)
 git config --global user.name "mamun7025"
 git config --global user.email "mamun7025@gmail.com"
 
+
+
+
+
+============================================================================================
+git reset --hard origin/master
+git pull origin master
+
+
+
+
+
+
