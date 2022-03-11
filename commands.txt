@@ -7,6 +7,9 @@ git checkout almamun --------> move to local almamun branch
 git merge master ------------> marge local almamun branch with local master branch
 
 
+git stash ------> apply it or apply force checkout
+git checkout almamun -f
+
 
 git checkout -b my-branch-name ----------> create new branch with name my-branch-name
 git checkout my-branch-name -------------> move to local branch name: my-branch-name
