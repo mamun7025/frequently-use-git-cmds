@@ -1,5 +1,7 @@
 git update-git-for-windows
 
+git branch -M main ----------> Use main branch instead of master
+
 git checkout master ---------> move to master branch
 git status ------------------> see current branch status
 git pull origin master ------> synce local master branch with remote master
