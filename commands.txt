@@ -92,5 +92,10 @@ git pull origin master
 
 
 
+=========== Git clone specific branch =========================
+git clone https://github.com/karan1122551/full-stack-project.git
+git branch -a
+git checkout implementation
+
 
 
