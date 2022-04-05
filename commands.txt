@@ -98,4 +98,7 @@ git branch -a
 git checkout implementation
 
 
-
+========================= My .gitignore file is ignored by git and it does not work
+git rm -r --cached .;
+git add .;
+git commit -m "Untracked files issue resolved to fix .gitignore";
