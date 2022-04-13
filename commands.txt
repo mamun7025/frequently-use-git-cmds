@@ -108,3 +108,5 @@ git commit -m "Untracked files issue resolved to fix .gitignore";
 // Clone / Push Code to GitHub using Personal Access Token Authentication
 git clone https://username:pat@github.com/username/reponame.git
 git clone https://mamun7025:ghp_XXXXXXXXXXXXXXXXYYYYYYYYYY@github.com/mamun7025/spring-boot-exception-handling.git
+// update token
+git remote set-url origin https://mamun7025:ghp_XXXXXXXXXXXXXXXXYYYYYYYYYY@github.com/mamun7025/spring-boot-exception-handling.git
