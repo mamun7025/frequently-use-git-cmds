@@ -38,7 +38,9 @@ $ git push origin master
 
 
 
-
+git pull origin branchname --allow-unrelated-histories
+git mergetool
+git checkout -f master
 
 
 
