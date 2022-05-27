@@ -59,6 +59,23 @@ git remote prune
 git remote prune origin
 
 
+-----------------------
+It's very simple. You just go to one branch (e.g. main is your branch).
+Run the command
+git checkout main
+git diff branch2
+// OR
+git diff b1...b2
+--------------
+git diff with Double Dot Notation
+git diff main..feature/login
+git log main..feature/login
+git log --oneline main..feature/login
+ git diff main..feature/login index.html
+ https://www.git-tower.com/learn/git/faq/git-compare-two-branches
+
+
+
 ====================================================================================================================================
 …or create a new repository on the command line
 echo "# chkTestRepo" >> README.md
