@@ -74,7 +74,8 @@ git log --oneline main..feature/login
  git diff main..feature/login index.html
  https://www.git-tower.com/learn/git/faq/git-compare-two-branches
 
-
+git log -9
+git diff 86de235419449f317871e3d97a44ae0ae0fc8d1d wallet-management/src/main/java/com/moneycore/controller/WalletManagementController.java
 
 ====================================================================================================================================
 …or create a new repository on the command line
