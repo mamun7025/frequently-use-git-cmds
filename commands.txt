@@ -5,6 +5,7 @@ git branch -M main ----------> Use main branch instead of master
 git checkout master ---------> move to master branch
 git status ------------------> see current branch status
 git pull origin master ------> synce local master branch with remote master
+git pull origin master --autostash
 git checkout almamun --------> move to local almamun branch
 git merge master ------------> marge local almamun branch with local master branch
 
