@@ -14,6 +14,8 @@ git stash ------> apply it or apply force checkout
 git stash ------> To discard all local changes, but save them for later:
 git checkout almamun -f
 
+git mergetool
+
 
 
 
