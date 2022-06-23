@@ -149,6 +149,11 @@ git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 https://gist.github.com/ainsofs/2b80771a5582b7528d9e
+
+git rm --cached .idea/compiler.xml
+git rm --cached .idea/encodings.xml
+git rm --cached .idea/misc.xml
+git rm --cached .idea/workspace.xml
 =====================================================================
 
 
