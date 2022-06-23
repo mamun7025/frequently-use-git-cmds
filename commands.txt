@@ -140,6 +140,17 @@ git rm -r --cached .;
 git add .;
 git commit -m "Untracked files issue resolved to fix .gitignore";
 
+----------------------
+# remove specific file from git cache
+git rm --cached filename
+
+# remove all files from git cache
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+https://gist.github.com/ainsofs/2b80771a5582b7528d9e
+=====================================================================
+
 
 ===============================
 // Clone / Push Code to GitHub using Personal Access Token Authentication
