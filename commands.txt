@@ -136,6 +136,17 @@ git checkout implementation
 
 
 ========================= My .gitignore file is ignored by git and it does not work
+============ Applied ===========================================
+git rm --cached <file>
+git rm -r --cached <folder>
+
+git rm --cached .gitignore
+git add .gitignore
+
+git rm -r --cached food-craft/foodcraft-backend/target
+================================================================
+
+
 git rm -r --cached .;
 git add .;
 git commit -m "Untracked files issue resolved to fix .gitignore";
