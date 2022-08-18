@@ -17,6 +17,7 @@ git checkout almamun -f
 git mergetool
 
 
+git log --pretty=format: --name-only --since="2 days ago" | sort | uniq
 
 
 git checkout -b my-branch-name ----------> create new branch with name my-branch-name
