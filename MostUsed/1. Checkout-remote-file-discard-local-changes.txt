@@ -1,0 +1,11 @@
+git status
+git fetch
+git checkout origin/wikiMaster -- fsms/src/main/java/com/ekfc/fsms/service/FSMSReceivingService.java
+git checkout origin/wikiMaster -- food-craft/foodcraft-backend/src/main/java/com/ekfc/foodcraft/dao/OrdersDAO.java
+
+
+git checkout origin/wikiMaster -- food-craft/foodcraft-backend/src/main/java/com/ekfc/foodcraft/dao/OrdersDAO.java
+git checkout origin/wikiMaster -- food-craft/foodcraft-backend/src/main/resources/application.properties
+
+
+git checkout origin/wikiMaster -- foodcraft-cms-backend/src/main/resources/application.properties

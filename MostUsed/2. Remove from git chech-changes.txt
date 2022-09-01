@@ -1,0 +1,30 @@
+
+----------------------
+# remove specific file from git cache
+git rm --cached filename
+
+# remove all files from git cache
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+https://gist.github.com/ainsofs/2b80771a5582b7528d9e
+
+git rm --cached .idea/compiler.xml
+git rm --cached .idea/encodings.xml
+git rm --cached .idea/misc.xml
+git rm --cached .idea/workspace.xml
+
+************************** Apply
+git rm --cached <file>
+git rm -r --cached <folder>
+
+git rm --cached .gitignore
+git add .gitignore
+
+git rm -r --cached food-craft/foodcraft-backend/target
+git rm -r --cached fsms/src/main/resources/application-dev-mamun.properties
+
+
+
+git rm -r --cached foodcraft-backend/src/main/resources/application-mamun.properties
+git rm -f --cached foodcraft-cms-backend/src/main/resources/application.properties
