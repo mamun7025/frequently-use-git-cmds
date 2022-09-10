@@ -1,0 +1,28 @@
+
+https://devconnected.com/how-to-compare-two-git-branches/
+
+$ git diff branch1..branch2
+$ git diff master..feature
+
+
+-----------------------
+It's very simple. You just go to one branch (e.g. main is your branch).
+Run the command
+git checkout main
+git diff branch2
+// OR
+git diff b1...b2
+--------------
+git diff with Double Dot Notation
+git diff main..feature/login
+git log main..feature/login
+git log --oneline main..feature/login
+ git diff main..feature/login index.html
+ https://www.git-tower.com/learn/git/faq/git-compare-two-branches
+
+
+------------------------
+git log -9
+git diff 86de235419449f317871e3d97a44ae0ae0fc8d1d wallet-management/src/main/java/com/moneycore/controller/WalletManagementController.java
+git diff d514ef0a96c841f06fc6d884778685aa16991f89 fsms/src/main/java/com/ekfc/fsms/service/FSMSReceivingService.java
+git diff 1e24941cb326b01d3eabef545b2fab68d7da84fd foodcraft-cms/report-products-info.html
