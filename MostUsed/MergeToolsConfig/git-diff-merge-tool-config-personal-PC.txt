@@ -43,11 +43,15 @@ git config --global diff.guitool meld
 
 git checkout -b dev-mamun
 git checkout dev-mamun
+--- do some chanhe in files and commit
+git checkout main
+git merge dev-mamun
 ==========================================================
 git mergetool
 ---- do merge through tools, then run below cmds
 git status
 git commit -m "Resolve merge conflict"
+git push
 
 
 git diff main..dev-mamun
