@@ -48,6 +48,7 @@ git mergetool
 ---- do merge through tools, then run below cmds
 git status
 git commit -m "Resolve merge conflict"
+git push origin main
 
 
 git diff main..dev-mamun
