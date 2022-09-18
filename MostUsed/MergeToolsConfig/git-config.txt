@@ -1,0 +1,14 @@
+[diff]
+    tool = meld
+[difftool "meld"]
+    path="yourPath"
+[difftool]
+    prompt = false
+	
+
+[merge]
+    tool = meld
+[mergetool "meld"]
+    path="yourPath"
+[mergetool]
+    keepBackup=false

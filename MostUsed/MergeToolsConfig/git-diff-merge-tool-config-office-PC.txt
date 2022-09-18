@@ -1,0 +1,56 @@
+git config --global merge.tool meld
+git config --global mergetool.meld.path "C:/Users/mdmamun/scoop/apps/meld/3.20.4/Meld.exe"
+
+git config --global diff.guitool meld
+
+=========================================================
+[diff]
+    tool = meld
+[difftool "meld"]
+    path="yourPath"
+[difftool]
+    prompt = false
+    
+
+[merge]
+    tool = meld
+[mergetool "meld"]
+    path="yourPath"
+[mergetool]
+    keepBackup=false
+---------------------------------------------------------
+********* My PC Works Config ***************************
+[user]
+    name = mamun7025
+    email = mamun7025@gmail.com
+
+[diff]
+    guitool = meld
+[difftool "meld"]
+    path=C:/Users/mdmamun/scoop/apps/meld/3.20.4/Meld.exe
+[difftool]
+    prompt = false
+
+[merge]
+    tool = meld
+[mergetool "meld"]
+    path = C:/Users/mdmamun/scoop/apps/meld/3.20.4/Meld.exe
+[mergetool]
+    keepBackup = false
+************************************************************
+
+
+
+git checkout -b dev-mamun
+git checkout dev-mamun
+==========================================================
+git mergetool
+---- do merge through tools, then run below cmds
+git status
+git commit -m "Resolve merge conflict"
+
+
+git diff main..dev-mamun
+git diff main..dev-mamun articles/most-used-git-cmds.html
+git difftool main..dev-mamun
+git difftool main..dev-mamun articles/most-used-git-cmds.html
