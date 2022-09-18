@@ -21,6 +21,12 @@ git log --oneline main..feature/login
  https://www.git-tower.com/learn/git/faq/git-compare-two-branches
 
 
+----- Appllied ---------------------------------------------
+git diff main..dev-mamun
+git diff main..dev-mamun articles/most-used-git-cmds.html
+git difftool main..dev-mamun articles/most-used-git-cmds.html
+
+
 ------------------------
 git log -9
 git diff 86de235419449f317871e3d97a44ae0ae0fc8d1d wallet-management/src/main/java/com/moneycore/controller/WalletManagementController.java
