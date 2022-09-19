@@ -1,0 +1,31 @@
+git diff --name-only SHA1 SHA2
+git show --name-only SHA1
+git diff --name-status [SHA1 [SHA2]]
+git log --name-status --oneline [SHA1..SHA2]
+
+
+
+=========== Applied ===================================================
+git log --pretty="%C(Yellow)%H  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s" -7
+
+
+git show d92d7fc77c47e2f3773be6847236046eba89b7ee --name-only
+git show 833efd1d648f5026f7131fd30c19c18467466431 --name-status
+
+------ dif betwwen 2 commits
+git --no-pager  diff --name-only aef25322d9229b98e9458ff7939b01886b88c730 c004d72bb5761b84dd8d1d7314933d5d1a2fbd81
+
+
+
+
+======================================================================
+View the change history of a file using Git versioning
+
+git log -p -- filename
+git log --follow -p -- path-to-file
+
+-----------------
+git log --follow -p -- foodcraft-backend/.idea/compiler.xml
+git log -p -- foodcraft-backend/.idea/compiler.xml
+git log -p -- foodcraft-backend/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_6.xml
+
