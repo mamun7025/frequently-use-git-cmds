@@ -1,0 +1,21 @@
+
+------------ Git Track Remote ---------------------
+which local branch is tracking which remote branch in Git?
+
+git remote show origin
+
+For all branches: git branch -avv
+For local branches only: git branch -lvv
+For remote branches only: git branch -rvv
+
+
+
+
+-------------- How can I tell a local branch to track a remote branch
+git checkout --track origin/dev
+Branch dev set up to track remote branch dev from origin.
+Switched to a new branch 'dev'
+
+
+git remote prune
+git remote prune origin

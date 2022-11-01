@@ -1,0 +1,75 @@
+
+------------ Remove from staging area ------------------------------------------------
+git rm --cached foodcraft-backend/src/main/resources/application-mamun.properties
+git rm --cached foodcraft/assets/img/banner/5eeea.gif
+
+
+// 1 - ✔✔
+----------- Remove single/specific file from committed area --------------------------
+git reset --soft HEAD^1
+git rm --cached <file-name>
+git commit -m "<your-message>" / git commit -c ORIG_HEAD  
+
+// 3 - ✔
+-------
+git reset HEAD^ /path/to/file
+git commit --amend --no-edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------
+# remove specific file from git cache
+git rm --cached filename
+
+# remove all files from git cache
+git rm -r --cached .
+git add .
+git commit -m ".gitignore is now working"
+https://gist.github.com/ainsofs/2b80771a5582b7528d9e
+
+git rm --cached .idea/compiler.xml
+git rm --cached .idea/encodings.xml
+git rm --cached .idea/misc.xml
+git rm --cached .idea/workspace.xml
+
+************************** Apply
+git rm --cached <file>
+git rm -r --cached <folder>
+
+git rm --cached .gitignore
+git add .gitignore
+
+git rm -r --cached food-craft/foodcraft-backend/target
+git rm -r --cached fsms/src/main/resources/application-dev-mamun.properties
+
+
+
+git rm -r --cached foodcraft-backend/src/main/resources/application-mamun.properties
+git rm -f --cached foodcraft-cms-backend/src/main/resources/application.properties
+
+
+git rm foodcraft/assets/img/banner/F521177.webp
+git rm foodcraft/assets/img/banner/F521159_1.webp
+
+
+
+================= Delete file from working directory ========================================================
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\F521165_2.webp"
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\F521160_2.webp"
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\F521113.webp"
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\F521159_2.webp"
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\F521177.webp"
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\F521155_1.webp"
+del /f "D:\app-codes\projects2\FOODCRAFT_Repo\FOODCRAFT.wiki\foodcraft\assets\img\banner\bird-wings-flying-feature.gif"

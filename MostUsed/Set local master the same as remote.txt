@@ -1,0 +1,28 @@
+git fetch origin
+git reset --hard origin/master
+
+--- Apply
+git fetch origin
+git reset --hard origin/wikiMaster
+
+
+
+https://stackoverflow.com/a/1628334/10990907
+git make local branch same as remote
+----------------------------------------------------
+git fetch origin
+git reset --hard origin/master
+
+
+Use the commands below. These commands will remove all untracked files from local git too
+-------------------------------------------------------------------------------------------------------
+https://stackoverflow.com/a/1628334/10990907
+git fetch origin
+git reset --hard origin/master
+git clean -d -f
+
+
+https://stackoverflow.com/a/43846195/10990907
+-------------------------
+git fetch origin
+git reset --hard origin/<branch_name>

@@ -1,0 +1,9 @@
+
+
+git log --pretty="%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s" -7
+git log --pretty="%C(Yellow)%H  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s" -7
+
+
+git diff 0433a8e3dc8856c0e9815864f7a53dc0db03da74 7d36ac06b88a8c6d8372f50f1ed4e3836c7f02e9 --name-only
+git diff 0433a8e3dc8856c0e9815864f7a53dc0db03da74 7d36ac06b88a8c6d8372f50f1ed4e3836c7f02e9 -- foodcraft-cms-backend/sql-scripts/create-scripts.sql
+git diff 0433a8e3dc8856c0e9815864f7a53dc0db03da74 7d36ac06b88a8c6d8372f50f1ed4e3836c7f02e9 -- foodcraft/assets/js/core/fc-view.js

@@ -1,0 +1,38 @@
+
+// 1 
+Discarding Local Changes in a File
+git restore index.html
+
+// 2 
+Saving Changes on the Stash
+git stash --include-untracked
+git stash
+
+// 3
+Git's "Stash" so you can restore
+git stash pop
+
+// 4
+Discarding All Local Changes
+git restore .
+
+
+// 5
+Undoing the changes in the working directory
+Use the checkout command in order to checkout the repository’s version of the hello.html file.
+
+cmd:
+git checkout hello.html
+git status
+cat hello.html
+
+
+// **
+git checkout -- file
+git checkout filename
+git checkout -- name1/name2/fileOne.ext nameA/subFolder/fileTwo.ext
+WARNING: your changes will be discarded — no backup is kept.
+
+
+Ref Links:
+https://githowto.com/undoing_local_changes

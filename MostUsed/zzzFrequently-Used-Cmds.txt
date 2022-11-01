@@ -1,0 +1,10 @@
+ 
+
+git push -u origin my_branch
+git push -u origin wikiMaster:wikiMaster
+
+
+git rm -r --cached food-craft/foodcraft-backend/target
+
+git rm -r --cached food-craft/foodcraft-admin-backend/src/main/resources/application-old.properties
+git rm --cached food-craft/foodcraft-backend/src/main/resources/application.properties

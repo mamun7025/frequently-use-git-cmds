@@ -1,0 +1,66 @@
+// 1 - ✔
+----------- Remove single file from committed area/Remove Specific File from Git Commit -----------------------------------
+git reset --soft HEAD^1
+git rm --cached <file-name>
+git commit -m "<your-message>" / git commit -c ORIG_HEAD  
+
+
+// 2
+----------- Note, that since Git 2.23.0 one can (the new way) ------------------------
+git restore --staged path/to/unwanted_file
+git commit -c ORIG_HEAD  
+
+
+// 3 - ✔
+-------https://stackoverflow.com/a/42450337
+git reset HEAD^ /path/to/file
+git commit --amend --no-edit
+
+Applied -------------------------------------------------------------------------------------
+git reset HEAD^ -- foodcraft-cms-backend/src/main/resources/application.properties
+*** git restore --staged path/to/unwanted_file ----------- apply it in next testing
+git commit -c ORIG_HEAD
+
+
+
+
+
+
+// 4
+----------------
+git reset --soft HEAD~1
+git reset HEAD <file>
+git rm --cached <file>
+git commit --amend
+git ls-files
+
+// *** 5 // https://www.junosnotes.com/git/how-to-remove-files-from-git-commit/
+------------------
+git reset HEAD^ -- <file>
+git reset HEAD <file>
+git rm --cached <file>
+git ls-files
+git commit --amend
+
+
+
+// 6 // https://www.w3docs.com/snippets/git/how-to-remove-files-from-git-commit.html
+----------------
+git reset --soft HEAD~1
+git reset HEAD path/to/unwanted_file
+git commit -c ORIG_HEAD
+git rm --cached <file>
+
+git commit --amend
+git ls-files
+
+
+*** src: 
+https://coderwall.com/p/zpkhyg/remove-single-file-from-staging-or-from-commit
+https://devconnected.com/how-to-remove-files-from-git-commit/
+https://stackoverflow.com/questions/12481639/remove-file-from-latest-commit
+
+** https://www.studytonight.com/git-guide/how-to-remove-files-from-git-commit
+
+https://devconnected.com/how-to-remove-files-from-git-commit/#:~:text=In%20order%20to%20remove%20a,that%20you%20want%20to%20remove.
+https://www.w3docs.com/snippets/git/how-to-remove-files-from-git-commit.html

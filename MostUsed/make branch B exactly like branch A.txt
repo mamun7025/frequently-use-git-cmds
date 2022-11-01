@@ -1,0 +1,21 @@
+
+https://stackoverflow.com/a/33609829/10990907
+
+git checkout <branch B>
+git reset --hard <branch A>
+git push --force origin <branch B>
+
+
+https://stackoverflow.com/a/36321598/10990907
+Making two branches identical
+--------------------------------------------------------------------
+
+Checkout your target branch:
+git checkout A;
+
+To remove everything in branch A and make it to be the same as B:
+git reset B --hard;
+
+
+When you are done, don't forget to update your remote branch (use --force or -f flag in case you need to override history).
+git push origin A -f;

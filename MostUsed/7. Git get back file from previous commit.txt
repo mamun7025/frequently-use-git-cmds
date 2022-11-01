@@ -1,0 +1,14 @@
+
+git log -3
+git checkout b6b94f2c19c456336d60b9409fb1e373036d3d71 -- myfile.java
+
+
+
+
+# We need to find here a change that interests us.
+$ git log --diff-filter=D --summary
+$ git checkout 9ad202d538c6ee6448e2c1ca1529f0e78edd3f86~1 -- kafej.xml
+
+
+$ git checkout 833efd1d648f5026f7131fd30c19c18467466431 -- foodcraft-cms/view-order-list.html
+$ git checkout aa6548898d7399b67fcc46442d8c78784e16c717 -- foodcraft-cms-backend/src/main/java/com/ekfc/foodcraft/dao/ReportDAO.java

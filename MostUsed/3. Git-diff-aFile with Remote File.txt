@@ -7,8 +7,7 @@ $ git diff origin/master -- [local-path]
 
 $ git fetch origin wikiMaster
 $ git diff origin/wikiMaster -- foodcraft-cms-backend/src/main/resources/application.properties
-
-
+$ git diff origin/wikiMaster -- foodcraft-backend/src/main/java/com/ekfc/foodcraft/dao/OrdersDAO.java
 
 
 
@@ -30,6 +29,10 @@ https://stackoverflow.com/questions/21101572/difference-between-file-in-local-re
 ==============================================================================================================
 
 
+
+
+
+
 // 2
 ========================
 If you have fetched data from remote (all you need is to git fetch, it will not touch your current working tree) you can then use:
@@ -45,9 +48,11 @@ git show origin/wikiMaster:foodcraft-cms-backend/src/main/resources/application.
 ==============================================================================================================
 
 
+
+
 // 3
 ===============================================================================================================================================
-Sometimes we need to know which files will be pulled to our working tree from the remote repository. To do that just run:
+*** Sometimes we need to know which files will be pulled to our working tree from the remote repository. To do that just run:
 git fetch origin master; 
 git diff --name-only master origin/master 
 -----> Apply

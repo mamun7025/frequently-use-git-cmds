@@ -14,6 +14,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 ---------- Use ------------
 ****
 git log --pretty="%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s" -7
+git log --pretty="%C(Yellow)%H  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s" -7
 git log --pretty=format:"%C(yellow)%h%Creset %ad | %Cgreen%s%Creset %Cred%d%Creset %Cblue[%an]" --date=short
 ****
 ---------- Use ------------

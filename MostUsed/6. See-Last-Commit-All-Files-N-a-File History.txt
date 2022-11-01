@@ -12,6 +12,9 @@ git log --pretty="%C(Yellow)%H  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan
 git show d92d7fc77c47e2f3773be6847236046eba89b7ee --name-only
 git show 833efd1d648f5026f7131fd30c19c18467466431 --name-status
 
+git show b2b25472317fad24b69f41c024e28ec36c49b35f --name-only
+git show aa6548898d7399b67fcc46442d8c78784e16c717 --name-only
+
 ------ dif betwwen 2 commits
 git --no-pager  diff --name-only aef25322d9229b98e9458ff7939b01886b88c730 c004d72bb5761b84dd8d1d7314933d5d1a2fbd81
 
@@ -28,4 +31,6 @@ git log --follow -p -- path-to-file
 git log --follow -p -- foodcraft-backend/.idea/compiler.xml
 git log -p -- foodcraft-backend/.idea/compiler.xml
 git log -p -- foodcraft-backend/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_6.xml
+git log -p -- foodcraft/assets/js/core/fc-constants.js 
 
+git log -p -- foodcraft-cms-backend/src/main/java/com/ekfc/foodcraft/services/report/ReportsDWMYService.java
